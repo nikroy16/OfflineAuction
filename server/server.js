@@ -29,7 +29,7 @@ var node_modules_routes = require('./routes/node_modules');
 var style_routes = require('./routes/styles');
 var bower_routes = require('./routes/bower')
 var initialize_tables = require('./services/initialize_tables');
-var initialize_player_list = require('./services/initialize_player_list');
+// var initialize_player_list = require('./services/initialize_player_list');
 var create_admin = require('./services/create_admin');
 
 io.on('connection', function(socket){

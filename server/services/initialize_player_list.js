@@ -18,8 +18,7 @@ exports.initialize = function() {
         last_name: split[1],
         position: split[2],
         team: split[3],
-        value: split[4],
-        available: 1
+        value: split[4]
       };
 
       player_service.add_player(player);
